@@ -1,0 +1,65 @@
+/* line 4, ../_sass/screen.scss */
+* {
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+/* line 9, ../_sass/screen.scss */
+.divider {
+  width: 100%;
+  height: 75px;
+  background: navy;
+}
+
+/* line 15, ../_sass/screen.scss */
+footer {
+  height: 30px;
+  padding: 10px;
+}
+
+/* line 20, ../_sass/screen.scss */
+.img {
+  border: 1px solid black;
+  width: 200px;
+  height: 150px;
+}
+
+/* line 26, ../_sass/screen.scss */
+.daily-post {
+  border: 1px solid gray;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+/* line 32, ../_sass/screen.scss */
+.comments {
+  text-align: right;
+}
+
+/* line 36, ../_sass/screen.scss */
+h2 {
+  text-align: left;
+}
+
+/* line 40, ../_sass/screen.scss */
+p {
+  text-align: left;
+}
+
+/* line 44, ../_sass/screen.scss */
+.tags {
+  text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+  /* line 50, ../_sass/screen.scss */
+  .img {
+    width: 45%;
+  }
+}
+@media screen and (min-width: 600px) {
+  /* line 59, ../_sass/screen.scss */
+  .img {
+    width: 20%;
+  }
+}

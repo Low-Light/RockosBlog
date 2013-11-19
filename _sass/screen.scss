@@ -1,0 +1,64 @@
+// Reset no longer needed if you're using Bootstrap. But add it back if you don't want to use Bootstrap.
+// @import "reset";
+
+* {
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.divider {
+    width: 100%;
+    height: 75px;
+    background: navy;
+}
+
+footer {
+    height: 30px;
+    padding: 10px;
+}
+
+.img {
+    border: 1px solid black;
+    width: 200px;
+    height: 150px;
+}
+
+.daily-post {
+    border: 1px solid gray;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.comments {
+    text-align: right;
+}
+
+h2 {
+    text-align: left;
+}
+
+p {
+    text-align: left;
+}
+
+.tags {
+    text-align: right;
+}
+
+
+@media screen and (max-width: 600px) {
+    .img {
+        width: 45%;
+    }
+
+}
+
+
+@media screen and (min-width: 600px) {
+
+    .img {
+        width: 20%
+    }
+
+
+}
