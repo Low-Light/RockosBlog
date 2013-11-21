@@ -1,65 +1,135 @@
-/* line 4, ../_sass/screen.scss */
-* {
-  background-repeat: no-repeat;
+/* line 5, ../_sass/screen.scss */
+body {
+  padding-top: 40px;
   text-align: center;
 }
 
-/* line 9, ../_sass/screen.scss */
+/* line 10, ../_sass/screen.scss */
 .divider {
-  width: 100%;
-  height: 75px;
-  background: navy;
+  position: relative;
+  background-image: url("/images/rock-shirt.png");
+  background-repeat: repeat;
+  background-position: center;
+  width: auto;
+  height: auto;
 }
 
-/* line 15, ../_sass/screen.scss */
+/* line 20, ../_sass/screen.scss */
 footer {
   height: 30px;
   padding: 10px;
 }
 
-/* line 20, ../_sass/screen.scss */
+/* line 25, ../_sass/screen.scss */
+h1 {
+  font-family: 'Inika', serif;
+  font-size: 50px;
+}
+
+/* line 30, ../_sass/screen.scss */
 .img {
   border: 1px solid black;
   width: 200px;
-  height: 150px;
+  height: 200px;
+  margin: 5px;
+  padding: 0px;
+  position: relative;
 }
 
-/* line 26, ../_sass/screen.scss */
+/* line 39, ../_sass/screen.scss */
 .daily-post {
   border: 1px solid gray;
   margin-top: 20px;
   padding: 10px;
 }
 
-/* line 32, ../_sass/screen.scss */
+/* line 45, ../_sass/screen.scss */
 .comments {
   text-align: right;
 }
 
-/* line 36, ../_sass/screen.scss */
+/* line 49, ../_sass/screen.scss */
+h3 {
+  font-family: 'Inika', serif;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 55, ../_sass/screen.scss */
 h2 {
   text-align: left;
 }
 
-/* line 40, ../_sass/screen.scss */
+/* line 59, ../_sass/screen.scss */
 p {
   text-align: left;
 }
 
-/* line 44, ../_sass/screen.scss */
+/* line 63, ../_sass/screen.scss */
 .tags {
   text-align: right;
 }
 
+/* line 67, ../_sass/screen.scss */
+.day {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  position: relative;
+}
+
+/* line 76, ../_sass/screen.scss */
+.day .blog-link {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  font-size: 80px;
+  color: white;
+  opacity: .8;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+/* line 90, ../_sass/screen.scss */
+.day .blog-link:hover {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  font-size: 80px;
+  color: white;
+  opacity: 1;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-decoration: none;
+}
+
+/* line 105, ../_sass/screen.scss */
+.day a {
+  opacity: .8;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+/* line 114, ../_sass/screen.scss */
+.day a:hover {
+  opacity: 1;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-decoration: none;
+}
+
+/* line 124, ../_sass/screen.scss */
+.selfie {
+  width: 100%;
+}
+
 @media screen and (max-width: 600px) {
-  /* line 50, ../_sass/screen.scss */
-  .img {
+  /* line 129, ../_sass/screen.scss */
+  .day {
     width: 45%;
   }
 }
 @media screen and (min-width: 600px) {
-  /* line 59, ../_sass/screen.scss */
-  .img {
+  /* line 138, ../_sass/screen.scss */
+  .day {
     width: 20%;
   }
 }
